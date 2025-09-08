@@ -1,3 +1,3 @@
-module simple-api
+module github.com/AliasgharHeidari/simple-api
 
-go 1.24.1
+go 1.25.1
