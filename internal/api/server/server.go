@@ -8,8 +8,9 @@ import (
 func Start() {
 app := fiber.New()
 
-	app.Get("/gophers/members", handler.GopherMembers)
+	app.Get("/gophers/members",handler.GopherMembers)
 	app.Get("/gophers/teacher",handler.GopherTeacher)
-
+	app.Get("/gophers/contact",handler.GophersContact)
+	app.Get("/gophers/website",handler.GophersWebsite)
 	app.Listen(":8080")
 }
