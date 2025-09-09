@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "77665e70-036e-46ea-8a2d-caee89f43bb5",
+		"name": "simple-api-collection",
+		"description": "four endpoints described.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48295466"
+	},
+	"item": [
+		{
+			"name": "website request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/gophers/website",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gophers",
+						"website"
+					]
+				},
+				"description": "this endpoint contains website info such as website URL."
+			},
+			"response": []
+		},
+		{
+			"name": "contact request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/gophers/contact",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gophers",
+						"contact"
+					]
+				},
+				"description": "this endpoint contains contact information such as email & phone."
+			},
+			"response": []
+		},
+		{
+			"name": "members request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/gophers/members",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gophers",
+						"members"
+					]
+				},
+				"description": "this endpoint contains members information such as Name & Age."
+			},
+			"response": []
+		},
+		{
+			"name": "teacher request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/gophers/teacher",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gophers",
+						"teacher"
+					]
+				},
+				"description": "this endpoint contains teacher information such as Name & Age."
+			},
+			"response": []
+		}
+	]
+}
